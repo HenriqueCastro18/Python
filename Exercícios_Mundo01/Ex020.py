@@ -1,0 +1,10 @@
+name = str(input('Digite seu nome completo: ')).strip() # strip = para tirar os espaços antes e depois do nome
+print('-'*30)
+print('Seu nome tudo maiusculo', name.upper())
+print('-'*30)
+print('Seu nome tudo minusculo: ', name.lower())
+print('-'*30)
+print('Seu nome contem: ', len(name) - name.count(' '), 'Letras') # para tirar o espaços name.count(' ')
+print('-'*30)
+separa = name.split()
+print('Seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
